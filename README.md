@@ -36,11 +36,10 @@ The project is managed by pyproject.toml and [uv package manager](https://docs.a
 
 For local execution init the .venv environment with uv:
 
-```python
-# Use command prompt
-uv sync --prerelease=allow
+```bash
+uv sync
 ```
-This creates a .venv folder in your project directory, installs all dependencies defined in pyproject.toml into that environment and ensures pre-release versions are allowed.
+This creates a .venv folder in your project directory and installs all dependencies defined in pyproject.toml into that environment.
 
 3. **Activate the virtual environment:**
 

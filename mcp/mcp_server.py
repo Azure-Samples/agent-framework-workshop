@@ -1,5 +1,5 @@
 # Contoso Customer Service MCP Server
-# Run with: cd mcp && uv run --prerelease=allow mcp_server.py
+# Run with: cd mcp && uv run mcp_server.py
 
 from fastmcp import FastMCP
 from typing import List, Optional
