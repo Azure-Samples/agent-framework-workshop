@@ -16,7 +16,7 @@
 	],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "uv sync --prerelease=allow && [ -f .env.example ] && cp -n .env.example .env || true",
+	"postCreateCommand": "uv sync && [ -f .env.example ] && cp -n .env.example .env || true",
 	"postAttachCommand": "echo '\\n Devcontainer ready, remember to fill in .env before running the samples.\\n'",
 
 	// Configure tool-specific properties.

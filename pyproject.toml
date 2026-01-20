@@ -3,17 +3,20 @@ name = "agent-framework-workshop"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = "==3.12.0"
 dependencies = [
-    "agent-framework>=1.0.0b251211",
+    "agent-framework==1.0.0b251211",
     "ipykernel>=7.0.1",
     "jupyter>=1.1.1",
     "jupyterlab>=4.4.10",
     "python-dotenv>=1.1.1",
     "agent-framework[devui]",
-    "fastmcp>=2.2.0",
+    "fastmcp==3.0.0b1",
     "fastapi>=0.116.0",
     "uvicorn>=0.35.0",
     "azure-search-documents>=11.7.0b2",
     "azure-core>=1.36.0",
 ]
+
+[tool.uv]
+prerelease = "allow"
