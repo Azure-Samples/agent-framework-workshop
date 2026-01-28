@@ -9,7 +9,7 @@ import asyncio
 from datetime import datetime
 
 mcp = FastMCP(
-    name="Contoso Customer Service",
+    name="Contoso_Customer_Service",
     instructions=(
         "This MCP server provides tools for customer service operations. "
         "Use these tools to look up customers, check billing, and manage support tickets."
