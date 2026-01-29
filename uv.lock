@@ -1,6 +1,6 @@
 version = 1
 revision = 2
-requires-python = "==3.12.0"
+requires-python = ">=3.12.0, <3.13"
 
 [options]
 prerelease-mode = "allow"
@@ -250,15 +250,15 @@ wheels = [
 
 [[package]]
 name = "agent-framework-ollama"
-version = "1.0.0b260116"
+version = "1.0.0b260123"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "agent-framework-core" },
     { name = "ollama" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/cd/4f/8ecb5d32b5507bfe6663bb434137063315d0095997c6ec01298f2d3ed48f/agent_framework_ollama-1.0.0b260116.tar.gz", hash = "sha256:58b29a29a7ee7739d8db28fcde90ebb9ac73af8ce831df814608a788060e782e", size = 8052, upload-time = "2026-01-16T21:31:53.107Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/8e/cd/5f567e8aaa2d3ad6c723fed1f8b96afc4383606a9c0b73941e144b791b56/agent_framework_ollama-1.0.0b260123.tar.gz", hash = "sha256:82f54bd3c31386bab2a97af59b3b79a6fe932376ae9fa1a56021fdb5e0df6667", size = 8042, upload-time = "2026-01-23T23:56:43.581Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/63/d3/fa33b5d0e91007675a7dab7bb3979f6f2c16ba6ca2d1eeddfddf8b15a816/agent_framework_ollama-1.0.0b260116-py3-none-any.whl", hash = "sha256:bd23c4c3526ae9516b0f2f86b8216ae513a52abb87df9c58ae592029c7a9d25b", size = 9132, upload-time = "2026-01-16T21:31:38.779Z" },
+    { url = "https://files.pythonhosted.org/packages/ee/b4/e16aa356d9de51eaec624be6ed3045c6b0d7a5e8089f0fe317af030562a7/agent_framework_ollama-1.0.0b260123-py3-none-any.whl", hash = "sha256:d62ee4193108a40a5e4b0379369e4035381975807303e4a11005200ac6201224", size = 9117, upload-time = "2026-01-23T23:56:29.394Z" },
 ]
 
 [[package]]
