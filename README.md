@@ -111,14 +111,29 @@ to help you with getting up to speed and figuring out what steps to take to comp
 agent-framework-workshop/
 ├── 01-single-agents/    
 │   ├── 01.1-single-agents.ipynb      # Agent fundamentals
-│   ├── 01.2-sigle-agent-mcp.ipynb    # MAF + MCP example
+│   ├── 01.2-single-agent-mcp.ipynb   # MAF + MCP example
 ├── 02-workflows/                     # Agent creation and orchestration
 │   ├── 02.1-intro-workflows.ipynb    # Intro to core concepts
 │   ├── 02.2-orchestrations.ipynb     # Multi-agent orchestrations
+├── 03-rag/                           # Retrieval-Augmented Generation
+│   ├── 03.0-setup-guide.md           # Setup instructions for RAG (AI Search only)
+│   ├── 03.1-rag-fundamentals.ipynb   # RAG fundamentals with programmatic indexing
+│   ├── 03.2-context-providers.ipynb  # Context providers
+│   ├── data/                         # Data files for RAG exercises
+│   └── images/                       # Images for RAG notebooks
+├── 04-human-in-the-loop/             # Human-in-the-loop patterns
+│   ├── 04.1-hitl-intro.ipynb         # HITL introduction
+│   ├── 04.2-hitl-workflows.ipynb     # HITL workflows
+│   └── images/                       # Images for HITL notebooks
+├── guides/                           # Additional setup guides
+│   ├── blob-storage-ai-search-integration.md  # Production setup with Blob Storage + AI Search
+│   └── images/                       # Images for guides
 ├── mcp/
-│   ├── contoso.db   
-│   ├── mcp_server.py 
-└── .env.example                 # Environment variables template
+│   ├── contoso.db                    # Sample database
+│   └── mcp_server.py                 # MCP server implementation
+├── readme_images/                    # Images for README
+├── workshop_utils.py                 # Shared utility functions
+└── .env.example                      # Environment variables template
 ```
 
 ---
